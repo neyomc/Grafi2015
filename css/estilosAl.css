@@ -1,0 +1,195 @@
+{ 
+    font-size: 14px; 
+} 
+body{ 
+background:#aaa; 
+} 
+form.login { 
+    background: none repeat scroll 0 0 #F1F1F1; 
+    border: 1px solid #000000; 
+    font-family: sans-serif; 
+    margin: 0 auto; 
+    padding: 15px; 
+	height:500;
+    width: 278px; 
+    box-shadow:0px 0px 20px black; 
+    border-radius:10px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-top: -280px;
+    margin-left: -139px;
+  font-style:italic;
+  font-weight:bold;
+  font-size:2em;
+  color:#0000CD;
+  font-family:'Helvetica','Verdana','Monaco',sans-serif;
+
+  background:#fff url(../img/alex.png) repeat-x center;
+
+  
+} 
+
+ .h2
+  {
+  margin-top: -50px;
+    margin-left: 177px;
+  }
+
+  .h3
+  {
+    font-style:italic;
+  font-weight:bold;
+  font-size:14;
+  color:#0000CD;
+  font-family:'Helvetica','Verdana','Monaco',sans-serif;
+  }
+ 
+  
+
+form.a
+{
+
+    position: relative;
+    left: 51%;
+    top: 40%;
+    margin-top: -280px;
+    margin-left: -139px;
+  font-style:italic;
+  font-weight:bold;
+  font-size:12;
+  color:#000000;
+  font-family:'Helvetica','Verdana','Monaco',sans-serif;
+
+}
+form.login div { 
+    margin-bottom: 15px; 
+    overflow: hidden; 
+    
+} 
+form.login div label { 
+    display: block; 
+    float: left; 
+    line-height: 25px;
+    
+}
+
+
+form.login div input[type="text"], form.login div input[type="password"] { 
+    border: 1px solid #DCDCDC; 
+    float: right; 
+    padding: 4px; 
+} 
+form.login div input[type="submit"] { 
+    background: none repeat scroll 0 0 #DEDEDE; 
+    border: 1px solid #C6C6C6; 
+     
+    font-weight: bold; 
+    padding: 4px 20px; 
+} 
+
+
+
+.error{ 
+    color: red; 
+    font-weight: bold; 
+    margin: 10px auto; 
+    text-align: center; 
+}
+
+
+.pagecontent{
+    z-index: 2;
+    position: relative;
+}
+
+.styled-select select {
+
+   width: 80px;
+   padding: 4px;
+   font-size: 16px;
+   line-height: 1;
+   border: 1px solid #DCDCDC;
+   float: right;
+   border-radius: 0;
+   height: 30px;
+ }
+
+
+.estilotextarea
+{
+    width:275px;
+    height:80px;
+    border: 1px solid #DCDCDC; 
+    float: center; 
+    padding: 4px;
+    resize: none;
+}
+
+.bien{ 
+    color: green; 
+    font-weight: bold; 
+    margin: 10px auto; 
+    text-align: center;     
+}
+
+.estilocomentarios 
+{
+    width:275px;
+    height:100px;
+    border: 2px solid #D3D3D3;
+    background-color: #F1F1F1;
+    resize: none;
+    
+}
+
+.profesoresbotones{
+    float:center;
+}
+
+.loginbotones{
+    float: right;
+}
+
+a:link {text-decoration:none; color: #99CC00;} /* Link no visitado*/
+a:visited {text-decoration:none; color:#99CC66} /*Link visitado*/
+a:active {text-decoration:none; color:#99FF00; background:#EEEEEE} /*Link activo*/
+a:hover {text-decoration:underline; color:#99FF00; background: #EEEEEE} /*Mause sobre el link*/
+
+#navegador ul{
+   list-style-type: none;
+   text-align: center;
+}
+#navegador li{
+   display: inline;
+   text-align: center;
+   margin: 0 10px 0 0;
+}
+#navegador li a {
+   padding: 2px 7px 2px 7px;
+   color: #666;
+   background-color: #eeeeee;
+   border: 1px solid #ccc;
+   text-decoration: none;
+}
+#navegador li a:hover{
+   background-color: #333333;
+   color: #ffffff;
+}
+#content h1 {
+  font-style:italic;
+  font-weight:bold;
+  font-size:2em;
+  font-color:#ffffff;
+  font-family:'Helvetica','Verdana','Monaco',sans-serif;
+}
+
+#navegador titulo{
+  
+  font-style:italic;
+  font-weight:bold;
+  font-size:2em;
+  font-color:#ffffff;
+  font-family:'Helvetica','Verdana','Monaco',sans-serif;
+
+}
